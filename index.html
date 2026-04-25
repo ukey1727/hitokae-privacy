@@ -50,17 +50,22 @@
 
   <h2>1. 収集する情報</h2>
   <p>
-    本アプリは、利用者の個人情報（氏名、メールアドレス、電話番号、位置情報等）を収集しません。
+  本アプリは、氏名、メールアドレス、電話番号、住所、位置情報など、利用者を直接特定できる個人情報を原則として収集しません。
+  ただし、本アプリで利用する Firebase Analytics / Firebase Crashlytics / RevenueCat により、デバイスに関する識別子や技術情報等が処理される場合があります。
   </p>
+
 
   <h2>2. 利用状況データ</h2>
   <p>
-  本アプリでは、アプリの安定性向上を目的として、Firebase Crashlytics（Google LLC）を使用しています。クラッシュ発生時に、デバイスの種類・OSバージョン・スタックトレース等の技術情報が自動的に収集されます。これらの情報は個人を特定するものではなく、アプリの改善目的にのみ使用されます。
+  本アプリでは、アプリの安定性向上を目的として、Firebase Crashlytics（Google LLC）を使用しています。
+  クラッシュ発生時に、デバイスの種類、OSバージョン、アプリバージョン、スタックトレース等の技術情報が自動的に収集されます。
+  これらの情報は、障害解析および品質改善のためにのみ利用します。
   </p>
   <p>
-  アプリの改善を目的として、Firebase Analytics（Google LLC）を使用しています。ペイウォールの表示・購入操作などのアプリ内行動データを収集しますが、広告やマーケティング目的では使用しません。
+  また、本アプリでは、機能改善および利用状況分析を目的として、Firebase Analytics（Google LLC）を使用しています。
+  例えば、セッション開始・終了、行動候補の選択、画面遷移、ペイウォール表示・購入操作等のアプリ内行動データを収集します。
+  これらのデータは広告配信やマーケティング目的では利用しません。
   </p>
-
 
   <h2>3. アプリ内課金</h2>
   <p>
@@ -70,16 +75,16 @@
 
   <h2>4. 第三者への提供</h2>
   <p>
-    本アプリは、広告、マーケティング、またはトラッキング目的で、
-    ユーザーの個人情報を第三者に提供することはありません。
+  本アプリは、広告、マーケティング、またはトラッキング目的で、ユーザーの個人情報を第三者に提供することはありません。
   </p>
   <p>
-    サブスクリプションおよび購入管理のために RevenueCat Inc. のサービスを利用していますが、
-    これらの情報は決済およびサービス提供に必要な範囲でのみ使用され、
-    広告やマーケティング目的で利用されることはありません。
+  サブスクリプションおよび購入管理のために RevenueCat Inc. のサービスを利用しています。
+  これらの情報は決済およびサービス提供に必要な範囲でのみ利用され、広告やマーケティング目的で利用されることはありません。
   </p>
   <p>
-  クラッシュ解析のために、Firebase Crashlytics（Google LLC）を利用しています。収集される情報はアプリの安定性改善のみに使用されます。Googleのプライバシーポリシーについては <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> をご参照ください。
+  アプリの利用分析および障害解析のために、Firebase Analytics / Firebase Crashlytics（Google LLC）を利用しています。
+  Google における情報の取扱いについては、Google のプライバシーポリシーをご参照ください。
+  <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
   </p>
 
   <h2>5. お問い合わせ</h2>
@@ -88,7 +93,7 @@
     メールアドレス：info@nourimus.com
   </p>
 
-  <p>最終更新日：2026-04-04</p>
+  <p>最終更新日：2026-04-25</p>
 
   <hr/>
 
@@ -99,39 +104,43 @@
     This Privacy Policy explains how user information is handled in the app “Hitokae”.
   </p>
 
-  <h2>1. Information Collected</h2>
-  <p>
-    This app does not collect personal information such as name, email address,
-    phone number, or location data.
-  </p>
+<h2>1. Information Collected</h2>
+<p>
+  This app generally does not collect directly identifiable personal information such as your name, email address, phone number, address, or precise location.
+  However, Firebase Analytics / Firebase Crashlytics / RevenueCat used in this app may process device-related identifiers and technical information.
+</p>
 
-  <h2>2. Usage Data</h2>
-  <p>
-  This app uses Firebase Crashlytics (Google LLC) to improve app stability. In the event of a crash, technical information such as device type, OS version, and stack traces is automatically collected. This information does not identify individuals and is used solely for improving the app.
-  </p>
-  <p>
-  To improve the app, we use Firebase Analytics (Google LLC). We collect in-app behavioral data such as paywall views and purchase actions, but this data is never used for advertising or marketing purposes.
-  </p>
+<h2>2. Usage Data</h2>
+<p>
+  This app uses Firebase Crashlytics (Google LLC) to improve stability and reliability.
+  In the event of a crash, technical information such as device type, OS version, app version, and stack traces may be automatically collected.
+  This information is used only for crash analysis and quality improvement.
+</p>
+<p>
+  This app also uses Firebase Analytics (Google LLC) to analyze usage and improve features.
+  We may collect in-app behavioral events such as session start/end, action selection, screen transitions, paywall views, and purchase interactions.
+  This data is not used for advertising delivery or marketing.
+</p>
 
-  <h2>3. In-App Purchases</h2>
-  <p>
-    This app offers Apple in-app purchases (subscriptions).
-    Payment information is managed by Apple and is not accessed or stored by the developer.
-  </p>
+<h2>3. In-App Purchases</h2>
+<p>
+  This app offers Apple in-app purchases (subscriptions).
+  Payment information is processed and managed by Apple and is not accessed or stored by the developer.
+</p>
 
-  <h2>4. Third-Party Services</h2>
-  <p>
-    This app does not share personal information with third parties for advertising,
-    marketing, or tracking purposes.
-  </p>
-  <p>
-    RevenueCat Inc. is used solely for subscription and purchase management.
-    Any information processed is limited to what is necessary for payment and service delivery,
-    and is not used for advertising or marketing.
-  </p>
-  <p>
-  Firebase Crashlytics (Google LLC) is used for crash analysis. Information collected is used solely to improve app stability. For Google's privacy policy, please visit <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.
-  </p>
+<h2>4. Third-Party Services</h2>
+<p>
+  This app does not provide users' personal information to third parties for advertising, marketing, or tracking purposes.
+</p>
+<p>
+  RevenueCat Inc. is used solely for subscription and purchase management.
+  Any information processed is limited to what is necessary for payment processing and service delivery, and is not used for advertising or marketing.
+</p>
+<p>
+  Firebase Analytics / Firebase Crashlytics (Google LLC) are used for usage analysis and crash diagnostics.
+  For how Google handles information, please refer to:
+  <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>
+</p>
 
   <h2>5. Contact</h2>
   <p>
@@ -139,7 +148,7 @@
     Email: info@nourimus.com
   </p>
 
-  <p>Last updated: 2026-04-04</p>
+  <p>Last updated: 2026-04-25</p>
 
   <hr/>
 
@@ -184,12 +193,24 @@
     当方は必要に応じて本規約を変更することがあります。
   </p>
 
-  <h2>6. お問い合わせ</h2>
+  <h2>6. 利用者情報の取扱い</h2>
+<p>
+  利用者情報の取扱いについては、別途定めるプライバシーポリシーによるものとします。
+</p>
+
+<h2>7. 準拠法・管轄</h2>
+<p>
+  本規約の準拠法は日本法とします。
+  本アプリまたは本規約に関して利用者と当方との間で紛争が生じた場合は、
+  当方の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。
+</p>
+
+  <h2>8. お問い合わせ</h2>
   <p>
     お問い合わせ：info@nourimus.com
   </p>
 
-  <p>最終更新日：2026-01-01</p>
+  <p>最終更新日：2026-04-25</p>
 
   <hr/>
 
@@ -234,12 +255,24 @@
     These terms may be updated as necessary.
   </p>
 
-  <h2>6. Contact</h2>
+  <h2>6. Handling of User Information</h2>
+<p>
+  The handling of user information shall be governed by the separate Privacy Policy.
+</p>
+
+<h2>7. Governing Law and Jurisdiction</h2>
+<p>
+  These Terms shall be governed by and construed in accordance with the laws of Japan.
+  In the event of any dispute arising in connection with this app or these Terms,
+  the court having jurisdiction over our principal place of business shall have exclusive jurisdiction as the court of first instance.
+</p>
+
+  <h2>8. Contact</h2>
   <p>
     Contact: info@nourimus.com
   </p>
 
-  <p>Last updated: 2026-01-01</p>
+  <p>Last updated: 2026-04-25</p>
 
 </body>
 </html>
